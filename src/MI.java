@@ -47,7 +47,7 @@ public class MI extends Common_features{
 				default:System.out.println("You've Enter incorrect choice");
 						break;
 			}
-			System.out.println("Do you want to continue 'y' or 'n'?");
+			System.out.println("Do you want to continue 'y' or do you want to Select another OS 'n'?");
 			ch=sc.next().charAt(0);
 		}while(ch!='n');
 		Mobile mb=new Mobile();
