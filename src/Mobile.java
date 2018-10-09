@@ -40,6 +40,7 @@ public class Mobile extends Sim{
 	void Select_Os()
 	{
 		Mobile mb=new Mobile();
+		System.out.println("======Phone Config======");
 		System.out.println("Enter Ram (GB):");
 		int r=sc.nextInt();
 		mb.setRam(r);
