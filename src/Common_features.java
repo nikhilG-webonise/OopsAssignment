@@ -1,4 +1,4 @@
-public class Common_features {
+abstract class Common_features {
 	 protected void Sms(String mobile_number,String message) {
 		 System.out.println("SMS Send");
 	 }
